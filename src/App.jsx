@@ -11,9 +11,9 @@ export default function App() {
         <Route index Component={HomePage} />
 
         {/* BOOK ROUTES */}
-        <Route path="/books">
+        <Route path="books">
           <Route index Component={BookList} />
-          <Route path="/:id" Component={BookDetail} />
+          <Route path=":id" Component={BookDetail} />
         </Route>
       </Routes>
     </BrowserRouter>
