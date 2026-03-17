@@ -37,7 +37,9 @@ export default function DefaultTemplate() {
       </nav>
 
       <main>
-        <Outlet />
+        <div className="container py-5">
+          <Outlet />
+        </div>
       </main>
     </>
   );
