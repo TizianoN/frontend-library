@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router";
 import HomePage from "./pages/HomePage";
-import BookList from "./pages/books/BookList";
-import BookDetail from "./pages/books/BookDetail";
+import BookListPage from "./pages/books/BookListPage";
+import BookDetailPage from "./pages/books/BookDetailPage";
 import DefaultTemplate from "./templates/DefaultTemplate";
 
 export default function App() {
@@ -14,8 +14,8 @@ export default function App() {
 
           {/* BOOK ROUTES */}
           <Route path="books">
-            <Route index Component={BookList} />
-            <Route path=":id" Component={BookDetail} />
+            <Route index Component={BookListPage} />
+            <Route path=":id" Component={BookDetailPage} />
           </Route>
         </Route>
       </Routes>
