@@ -1,0 +1,4 @@
+.book-card > .card-img-top {
+  aspect-ratio: 3/4;
+  object-fit: cover;
+}
