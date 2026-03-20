@@ -2,3 +2,26 @@
   aspect-ratio: 3/4;
   object-fit: cover;
 }
+
+.review-avatar {
+  height: 35px;
+  aspect-ratio: 1;
+  background-color: blueviolet;
+  color: white;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.review-username {
+  width: 75px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  text-wrap: nowrap;
+}
+
+.review-item:last-child {
+  border-bottom: none !important;
+}
